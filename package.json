@@ -1,7 +1,7 @@
 {
-  "name": "phase02-opt1",
+  "name": "phase2-opt1",
   "version": "0.1.0",
-  "homepage": "https://kfossplayspace.github.io/phase02-opt1",
+  "homepage": "https://kfossplayspace.github.io/phase2-opt1",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
