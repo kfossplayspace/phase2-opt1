@@ -1,3 +1,10 @@
+function obfuscatePassword(password) {
+  if (!password) return '';
+    
+     return  '*'.repeat(password.length);
+     
+}
+
 export function CustomerList(params){
     return (
       <div className="boxed">
@@ -19,7 +26,8 @@ export function CustomerList(params){
                   >
                     <td>{item.name}</td>
                     <td>{item.email}</td>
-                    <td>{item.password}</td>
+                    <td>{obfuscatePassword(item.password)}</td>
+                   
                   </tr>);
                 }
               )}
