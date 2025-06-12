@@ -1,8 +1,8 @@
 function obfuscatePassword(password) {
   if (!password) return '';
-    
+   
      return  '*'.repeat(password.length);
-     
+   
 }
 
 export function CustomerList(params){
